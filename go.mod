@@ -5,7 +5,7 @@ go 1.21.3
 require (
 	github.com/golang-migrate/migrate v3.5.4+incompatible
 	github.com/pkg/errors v0.9.1
-	github.com/psyb0t/logrus-configurator v1.0.1
+	github.com/psyb0t/logrus-configurator v1.0.3
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.0
 	go.uber.org/mock v0.3.0

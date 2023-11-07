@@ -112,6 +112,8 @@ func createMigrationFiles(dirPath, number, name string) {
 }
 
 func createMigrationFile(filename string) {
+	logrus.Info("creating migration file: ", filename)
+
 	file, err := os.Create(filename)
 	if err != nil {
 		logrus.Fatal(errors.Wrapf(err, "failed to create file: %s", filename))
