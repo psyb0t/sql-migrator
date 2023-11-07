@@ -4,7 +4,7 @@ PKG_LIST := $(shell go list ${MODULE_NAME}/...)
 MIN_TEST_COVERAGE := 80
 GO111MODULE=on
 CGO_ENABLED=0
-ENTRYPOINT := "./cmd/main.go"
+ENTRYPOINT := "./cmd/$(SERVICE_NAME)/main.go"
 
 .PHONY: build
 
